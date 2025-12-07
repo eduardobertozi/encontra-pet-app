@@ -21,9 +21,11 @@ export function Sidebar() {
     <aside className="w-64 border-r bg-card min-h-screen flex flex-col">
       {/* Logo */}
       <div className="p-6 border-b">
-        <Link href="/dashboard" className="flex items-center gap-2 text-primary">
-          <Heart className="h-8 w-8 fill-secondary text-secondary" />
-          <span className="font-bold text-xl">Encontra Pet</span>
+        <Link href="/dashboard" className="flex items-center gap-2.5 group">
+          <div className="bg-secondary rounded-full p-2 group-hover:scale-110 transition-transform">
+            <PawPrint className="h-6 w-6 text-white" />
+          </div>
+          <span className="font-bold text-2xl text-primary">Encontra Pet</span>
         </Link>
       </div>
 
