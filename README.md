@@ -53,42 +53,6 @@ npm run dev
 http://localhost:3000
 \`\`\`
 
-## 📂 Estrutura do Projeto
-
-\`\`\`
-encontra-pet/
-├── app/
-│   ├── page.tsx                    # Landing Page
-│   ├── dashboard/
-│   │   ├── layout.tsx              # Layout do Dashboard
-│   │   ├── page.tsx                # Overview Dashboard
-│   │   ├── animals/
-│   │   │   └── page.tsx            # Gerenciamento de Animais
-│   │   └── adoptions/
-│   │       └── page.tsx            # Solicitações de Adoção
-│   ├── layout.tsx                  # Layout raiz
-│   └── globals.css                 # Estilos globais
-├── components/
-│   ├── landing/                    # Componentes da Landing Page
-│   │   ├── header.tsx
-│   │   ├── hero.tsx
-│   │   ├── how-it-works.tsx
-│   │   ├── featured-pets.tsx
-│   │   └── footer.tsx
-│   ├── dashboard/                  # Componentes do Dashboard
-│   │   ├── sidebar.tsx
-│   │   ├── stats-card.tsx
-│   │   ├── animal-table.tsx
-│   │   ├── animal-form-modal.tsx
-│   │   └── adoption-table.tsx
-│   └── ui/                         # Componentes shadcn/ui
-├── data/
-│   └── mockData.ts                 # Dados mocados
-├── types/
-│   └── index.ts                    # Definições TypeScript
-└── README.md
-\`\`\`
-
 ## 🎨 Paleta de Cores
 
 - **Primária (Azul)**: `#2A6EBB`
